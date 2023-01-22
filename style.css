@@ -96,7 +96,7 @@ img {
 .product__checkout h1 {
   font-family: var(--faunces);
   margin-top: 15px;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 2.5rem;
   margin-top: 10px;
   margin-right: 10px;
@@ -106,7 +106,7 @@ p {
   margin-top: 5%;
   font-family: var(--montserrat);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5rem;
   word-wrap: break-word;
   margin-right: 40px;
@@ -127,7 +127,7 @@ p {
   align-items: center;
   cursor: pointer;
   background-color: var(--dark-cyan);
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .btn__addtocart:hover {
