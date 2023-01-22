@@ -127,7 +127,7 @@ p {
   align-items: center;
   cursor: pointer;
   background-color: var(--dark-cyan);
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .btn__addtocart:hover {
