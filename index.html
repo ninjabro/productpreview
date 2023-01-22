@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Product preview card component.</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="gabrielle__productimg">
+          <picture>
+            <source
+              media="(max-width:420px )"
+              srcset="./images/image-product-mobile.jpg"
+              alt="gabrielle__productimage"
+            />
+            <img
+              src="./images/image-product-desktop.jpg"
+              alt="gabrielle__productimage"
+            />
+          </picture>
+        </div>
+        <div class="product__checkout">
+          <p class="perfume__text">perfume</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="product__price">
+            <h1>$149.99</h1>
+            <p>$169.99</p>
+          </div>
+          <button class="btn__addtocart">
+            <img id="cart" src="./images/icon-cart.svg" alt="icon" /> Add to
+            Cart
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+        & Coded by <a href="#">Arun</a>.
+      </div>
+    </footer>
+  </body>
+</html>
